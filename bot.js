@@ -309,7 +309,7 @@ client.on('guildCreate', guild => {
   Someone Added Me ✅
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("470259549774020608").sendEmbed(embed)
+client.channels.get("567816348567339011").sendEmbed(embed)
 });
 
 client.on('guildDelete', guild => {
@@ -321,7 +321,7 @@ client.on('guildDelete', guild => {
   I Got Kicked :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("470259562121920512").sendEmbed(embed)
+client.channels.get("567816348567339011").sendEmbed(embed)
 });
 
 
