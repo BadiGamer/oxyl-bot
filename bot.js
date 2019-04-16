@@ -262,7 +262,7 @@ ${prefix}support ⥨ لدخول سيرفر الدعم
    
 
    client.on("message", message => {
- if (message.content === "*public") {
+ if (message.content === "$public") {
         message.react("📫")
 	           message.react("✅")
   const embed = new Discord.RichEmbed() 
