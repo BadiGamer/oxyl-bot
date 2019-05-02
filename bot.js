@@ -216,7 +216,7 @@ client.on('message', function(msg) {
             text = co.first().content
 
               message.channel.send(`تم حفظ اقتراحك الرجاء انتضار الرد من قبل الاداره`)
-                client.channels.get("567745229835468813").send(`${message.author.username}'s sug => ${text}`)
+                client.channels.get("573649797794365440").send(`${message.author.username}'s sug => ${text}`)
 
               })
             }
@@ -329,7 +329,7 @@ client.channels.get("567816348567339011").sendEmbed(embed)
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['By Mahdi','$help | $invite','BY Mahdi','$help | $invite','We are the best'];
+    var setGame = ['By Mahdi','$help | $invite','𝑻𝑹','$help | $invite','Thunder 0,1K'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -455,7 +455,7 @@ client.on('message', message => {
 
 
 client.on('message', function(message) {
-	const myID = "244888652004458497";
+	const myID = "302805727511052289";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
