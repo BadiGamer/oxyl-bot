@@ -2139,9 +2139,9 @@ message.author.sendEmbed(embed)
 
 let vipKeys = JSON.parse(fs.readFileSync("./vipKeys.json", "utf8"));
 client.on("message", msg=>{
-let id = "302805727511052289"; // ايديك
+let id = "527505679171321856"; // ايديك
 let role = "VIP"; // اسم رتبة الفيب
-let Price = 10; // السعر
+let Price = 1000; // السعر
 let Price2 = Math.floor(Price-(Price*(1/100)));
 if(!Price || Price < 1) return;
 let cmd = msg.content.split(' ')[0];
@@ -2172,7 +2172,7 @@ if(!roleW) return msg.reply(`البوت مقفل لعدم وجود رتبة ب �
 msg.channel.send(`كردت بروبوت\`${Price}\` لديك 4 دقائق لتحويل
 إلى ${msg.guild.members.get(id)}
 `).then( msgs =>{
-const filter = response => response.author.id == "302805727511052289" && response.mentions._content.includes(`:moneybag: | ${msg.author.username}, has transferred \`$${Price2}\` to ${msg.guild.members.get(id)}`);
+const filter = response => response.author.id == "527505679171321856" && response.mentions._content.includes(`:moneybag: | ${msg.author.username}, has transferred \`$${Price2}\` to ${msg.guild.members.get(id)}`);
 msg.channel.awaitMessages(filter, { maxMatches: 1, time: 240000, errors: ['time'] })
 .then( collected =>{
 msgs.delete()
@@ -2187,7 +2187,7 @@ giftc.on("collect", r=>{
 msg.channel.send(`كردت بروبوت\`${Price}\` لديك 4 دقائق لتحويل
 إلى ${msg.guild.members.get(id)}
 `).then( msgs =>{
-  const filter = response => response.author.id == "282859044593598464" && response.mentions._content.includes(`:moneybag: | ${msg.author.username}, has transferred \`$${Price2}\` to ${msg.guild.members.get(id)}`);
+  const filter = response => response.author.id == "527505679171321856" && response.mentions._content.includes(`:moneybag: | ${msg.author.username}, has transferred \`$${Price2}\` to ${msg.guild.members.get(id)}`);
   msg.channel.awaitMessages(filter, { maxMatches: 1, time: 240000, errors: ['time'] })
   .then( collected =>{
   msgs.delete()
