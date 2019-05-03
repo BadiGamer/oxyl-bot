@@ -2172,7 +2172,7 @@ if(!roleW) return msg.reply(`البوت مقفل لعدم وجود رتبة ب �
 msg.channel.send(`كردت بروبوت\`${Price}\` لديك 4 دقائق لتحويل
 إلى ${msg.guild.members.get(id)}
 `).then( msgs =>{
-const filter = response => response.author.id == "527505679171321856" && response.mentions._content.includes(`:moneybag: | ${msg.author.username}, has transferred \`$${Price2}\` to ${msg.guild.members.get(id)}`);
+const filter = response => response.author.id == "527505679171321856" && response.mentions._content.includes(`:moneybag: | ${msg.author.username}, has transferred \`$950` to ${msg.guild.members.get(id)}`);
 msg.channel.awaitMessages(filter, { maxMatches: 1, time: 240000, errors: ['time'] })
 .then( collected =>{
 msgs.delete()
@@ -2187,7 +2187,7 @@ giftc.on("collect", r=>{
 msg.channel.send(`كردت بروبوت\`${Price}\` لديك 4 دقائق لتحويل
 إلى ${msg.guild.members.get(id)}
 `).then( msgs =>{
-  const filter = response => response.author.id == "527505679171321856" && response.mentions._content.includes(`:moneybag: | ${msg.author.username}, has transferred \`$${Price2}\` to ${msg.guild.members.get(id)}`);
+  const filter = response => response.author.id == "527505679171321856" && response.mentions._content.includes(`:moneybag: | ${msg.author.username}, has transferred \`$950` to ${msg.guild.members.get(id)}`);
   msg.channel.awaitMessages(filter, { maxMatches: 1, time: 240000, errors: ['time'] })
   .then( collected =>{
   msgs.delete()
