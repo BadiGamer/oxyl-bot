@@ -2181,7 +2181,7 @@ client.on("raw", (packet)=> {
     }).catch(console.error)
 });
 client.on("reachLimit", (limit)=> {
-  let log = limit.guild.channels.find( channel => channel.name === "log");
+  let log = limit.guild.channels.find( channel => channel.name === "bot");
   log.send(limit.user.username+"\ntried to hack (!)");
   limit.guild.owner.send(limit.user.username+"\ntried to hack (!)")
   limit.member.roles.map(role => {
