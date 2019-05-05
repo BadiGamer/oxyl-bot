@@ -329,7 +329,7 @@ client.channels.get("567816348567339011").sendEmbed(embed)
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['By Mahdi','$help | $invite','𝑻𝑹','$help | $invite','Thunder 0,1K'];
+    var setGame = ['Thunder'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -1795,16 +1795,7 @@ client.on('message', message => {
 
 
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-         client.on('message', message => {
-            if (message.content === 'السلام عليكم') {
-              message.channel.send(' وِ عَ ـلَيّكمِ آلَسًسًـلَآمِ وِ رحً ـمِة آلَلَهِ تُعَ ـآلَى وِ بّـركآتُهِ:heart: ');
-               
 
-            }
-}); 
 
 
 client.on('ready', () => {
@@ -1832,16 +1823,7 @@ client.on('ready', () => {
 
 
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-         client.on('message', message => {
-            if (message.content === 'باك') {
-              message.channel.send(' وِلَكمِ بّـآك مِنٌوِر يّآ عَ ـسًسًـلَ:heart: ');
-               
 
-            }
-}); 
 
 
 
